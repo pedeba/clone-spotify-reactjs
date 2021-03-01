@@ -1,0 +1,74 @@
+.body {
+    padding: 30px;
+    flex: 0.9;
+    height: 100vh;
+    color: white;
+    overflow-y: scroll;
+    background: linear-gradient(#D882A6, rgba(0,0,0,1));
+}
+
+.body::-webkit-scrollbar{
+    display: none;
+}
+
+.body__info{
+    display: flex;
+    align-items: flex-end;
+}
+
+.body__infoText{
+    flex: 1;
+}
+
+
+.body__info>img{
+    height: 230px;
+    margin-right: 20px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.body__infoText > h2 {
+    font-size: 90px;
+    margin-bottom: 10px;
+}
+
+.body__infoText > p {
+    font-size: 14px;
+    color: grey;
+}
+
+.body__icons{
+    display: flex;
+    align-items: center;
+    margin-left: -25px;
+}
+
+.body__icons .body__shuffle,.body__icons .coracao{
+    color: #1DB954;
+}
+
+.body__icons>.MuiSvgIcon-root{
+    margin-right: 20px;
+}
+
+.body__shuffle{
+    font-size: 65px !important;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.body__shuffle:hover{
+    transition: 200ms transform ease-in;
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.body__songs{
+    margin: 20px -30px;
+    background: rgba(0, 0, 0, 0.137);
+}
+
+strong{
+    font-size: 12px;
+}
